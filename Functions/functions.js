@@ -70,11 +70,18 @@ setTimeout( function (){
 // Async function 
 
 
-const value = async function fetchData() {
+async function fetchData() {
     const response = await fetch("https://pastebin.com/raw/u45NJChf?__cf_chl_tk=qhBeiSFs0wJfYldeSFN8Grd0dPHv9CS6iqTP3_lams4-1732010167-1.0.1.1-1C4YsEcqEugRRHrfQDVDMpgrGoZe82Ih_z3kulW5Z1Q");
-    return response.json();
+    // console.log(response);
+    const data = await  response.json()
+    console.log(data);
+    
+    // return response.json();
+
 }
-console.log(value)
+
+fetchData()
+
 
 
 //          Normal function                           =                Arrow function

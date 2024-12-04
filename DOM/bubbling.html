@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="GrandParent" style="padding: 10px; border: 2px solid red;"> GrandParent
+        <div id="parent"  style="padding: 10px; border: 2px solid green;">parent
+            <button id="child"  style="padding: 5px; border: 2px solid blue;">child</button>
+        </div>
+    </div>
+
+    <script> 
+        document.getElementById('GrandParent').addEventListener('click' , ()=> console.log('Grand Parent called'))
+        document.getElementById('parent').addEventListener('click' , ()=> console.log('Parent called') )
+        document.getElementById('child').addEventListener('click' , ()=> console.log('child called') )
+    </script>
+    
+
+
+</body>
+
+
+
+
+
+
+
+</html>

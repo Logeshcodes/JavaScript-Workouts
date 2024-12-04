@@ -10,5 +10,5 @@ Person.prototype.greet = function (){
 
 let person1 = new Person('John')
 
-
+console.log(person1.greet())
 // person1 inherits the greet method from Person.prototype.
