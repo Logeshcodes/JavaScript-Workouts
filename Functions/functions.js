@@ -52,7 +52,18 @@ const concat = (a , b) => a+b ;
 console.log(concat(1,2))
 
 
+// callback Function
 
+function end(){
+    console.log('Callback...')
+}
+
+function start(a , end){
+    console.log(a)
+    end()
+}
+
+start(5 , end)
 
 
 
@@ -67,7 +78,7 @@ setTimeout( function (){
 
 
 
-// Async function 
+// Async function = its return a promise 
 
 
 async function fetchData() {

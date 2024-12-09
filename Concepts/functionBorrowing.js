@@ -28,16 +28,16 @@ const person2 = {
 // function belongs to person1 (obj) can be used by another person2 (obj2)
 
 
-// => using call() - immediately invoked function 
+// => using call() - function invoked immediately  
 
 person1.greeting.call(person2, 'Hello')  // Hello , Abin Babu
 
 
-// => using apply() - immediately invoked function  , accept input as a Array
+// => using apply() -  function invoked immediately  , accept input as a Array
 
 person1.greeting.apply(person2 , ['Hello']) // Hello , Abin Babu
 
-// => using bind() - Not immediately invoked function , assign to variable then call that 
+// => using bind() - Not  function invoked immediately , assign to variable then call that 
 
 var show = person1.greeting.bind(person2 , 'Hello')
 
