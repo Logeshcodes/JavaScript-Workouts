@@ -11,4 +11,6 @@ for(let i=0;i< arr.length ; i++){
     }
 }
 
-console.log(Object.entries(obj).sort((a,b) => b[0]- a[0])[2][1])
+console.log(Object.entries(obj).sort((a,b) => b[0] - a[0])) ;
+
+// console.log(Object.entries(obj).sort((a,b) => b[0]- a[0])[2][1])
