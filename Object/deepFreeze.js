@@ -22,7 +22,7 @@ function deepFreeze(obj){
         }
     })
 
-    return obj
+   
 }
 
 deepFreeze(obj)

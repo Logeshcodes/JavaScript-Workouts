@@ -1,7 +1,7 @@
 
 // Functional programming Technic
 
-// Transform a function with multiple arguments with series of function , each function taking a single argument
+// Transform a function with multiple arguments in the series of function , each function taking a single argument
 
 // Doesn't immediately invokes , it delays utill all the arguments are provided.
 

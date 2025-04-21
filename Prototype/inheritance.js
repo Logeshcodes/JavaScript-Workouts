@@ -1,4 +1,4 @@
-// prototype inheritance is an ability to inherit mathods and properties via their prototype chaining
+// prototype inheritance is an ability to inherit methods and properties via their prototype chaining
 
 function Person(name){
     this.name = name ;

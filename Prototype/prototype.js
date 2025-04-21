@@ -15,5 +15,7 @@ Person.prototype.greet = function (){
 
 let person1 = new Person('John')
 
+console.log(person1.greet())
+
 
 console.log(Person.prototype === person1.__proto__)

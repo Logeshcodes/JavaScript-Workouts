@@ -13,3 +13,6 @@ function a(){
 let fun = a()
 
 fun()
+
+// Adv :  encapsulation / Data Privacy
+// DisAdv  : Memory Leaks 
