@@ -1,28 +1,50 @@
-const p1 = new Promise((resolve,reject)=>{
-    setTimeout(function(){
-        resolve("Resolve will printed...")
-    },2000)
-})
+function task1(){
+    return new Promise((resolve , reject) =>{
 
-const p2= new Promise((resolve,reject)=>{
-    setTimeout(function(){
-        resolve("Resolve will printed...2 ")
-    },4000)
-})
+        setTimeout(() => {
+            console.log('Task1 done')
+            resolve()
+        }, 1000);
+    })
+}
+function task2(){
+    return new Promise((resolve , reject) =>{
 
-async function getData(){
+        setTimeout(() => {
+            console.log('Task2 done')
+            resolve()
+        }, 1000);
+    })
+}
+function task3(){
+    return new Promise((resolve , reject) =>{
 
-    console.log("hello world...")
-
-    var res = await p1;
-    console.log("line 1 ")
-    console.log(res)
-
-    var res2 = await p2;
-    console.log("line 2 ")
-    console.log(res2)
-
+        setTimeout(() => {
+            console.log('Task3 done')
+            resolve()
+        }, 1000);
+    })
 }
 
 
-getData()
+// task1()
+// .then(task2)
+// .then(task3)
+// .then(()=>{
+//     console.log('All Task done...')
+// })
+// .catch((err)=>{
+//     console.log(err)
+// })
+
+
+
+async function showRes(){
+
+    await task1();
+    await task2();
+    await task3();
+    console.log('All task completed...')
+}
+
+showRes()
