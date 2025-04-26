@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <input type="checkbox" checked='true' name="" id="demo">
+    <button onclick="changeText()">Click me</button>
+
+    <script>
+      function changeText() {
+        const status = document.getElementById("demo").checked
+        document.getElementById("demo").checked = !status
+      }
+    </script>
+  </body>
+</html>

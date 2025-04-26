@@ -107,3 +107,38 @@ fetchData()
 //          make Constructor                                             Not allowed
 
 //             Hoisted                                                   Not Hosited
+
+
+
+
+// first class Function  ===   higher order function 
+
+
+// ------------------------------------------------------
+
+
+const greet = function(name) {
+    return `Hello, ${name}`;
+  };
+  
+  const sayHello = greet; 
+  console.log(sayHello("Alice")); 
+  
+
+
+
+
+// --------------------------------------------------
+
+
+function greetUser(callback) {
+    console.log("Welcome!");
+    callback(); 
+  }
+  
+  function showTime() {
+    console.log("Current time: " + new Date().toString());
+  }
+  
+  greetUser(showTime);
+  
