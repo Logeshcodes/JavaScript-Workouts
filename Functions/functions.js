@@ -125,9 +125,6 @@ const greet = function(name) {
   console.log(sayHello("Alice")); 
   
 
-
-
-
 // --------------------------------------------------
 
 
