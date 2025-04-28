@@ -114,8 +114,6 @@ fetchData()
 // first class Function  ===   higher order function 
 
 
-// ------------------------------------------------------
-
 
 const greet = function(name) {
     return `Hello, ${name}`;
@@ -124,8 +122,6 @@ const greet = function(name) {
   const sayHello = greet; 
   console.log(sayHello("Alice")); 
   
-
-// --------------------------------------------------
 
 
 function greetUser(callback) {
