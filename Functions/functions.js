@@ -109,8 +109,6 @@ fetchData()
 //             Hoisted                                                   Not Hosited
 
 
-
-
 // first class Function  ===   higher order function 
 
 
@@ -122,7 +120,7 @@ const greet = function(name) {
   const sayHello = greet; 
   console.log(sayHello("Alice")); 
   
-
+//
 
 function greetUser(callback) {
     console.log("Welcome!");
