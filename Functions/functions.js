@@ -120,7 +120,6 @@ const greet = function(name) {
   const sayHello = greet; 
   console.log(sayHello("Alice")); 
   
-//
 
 function greetUser(callback) {
     console.log("Welcome!");
