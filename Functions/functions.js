@@ -98,15 +98,15 @@ fetchData()
 //          Normal function                           =                Arrow function (ES6)
 
 
-//        use function keyword                                     without function keyword
+//        use function keyword                       =              without function keyword
 
-//          own this context                                        don't have own this context
+//          own this context                          =              don't have own this context
 
-//          explicit return                                            implicit return 
+//          explicit return                          =                  implicit return 
 
-//          make Constructor                                             Not allowed
+//          make Constructor                          =                  Not allowed
 
-//             Hoisted                                                   Not Hosited
+//             Hoisted                                =                   Not Hosited
 
 
 // first class Function  ===   higher order function 
